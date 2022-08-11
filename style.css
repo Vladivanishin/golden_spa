@@ -84,3 +84,92 @@ select {
 
 /*выше сброс стилей-------начало проекта */
 
+body {
+	font-family: 'Noto Sans', sans-serif;
+	background-color: #E5E5E5;
+	color: #5C5B59;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.header-image {
+	min-width: 1440px;
+	max-height: 730px;
+	background: url('img/1440/image-main-pictire.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.header__image--gradient {
+	min-width: 1440px;
+	height: 730px;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.19) 0%, rgba(0, 0, 0, 0.4) 100%);
+}
+.container {
+	width: 1230px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 28px;
+	border: 1px solid gold;
+}
+.header__logo {
+}
+.visually-hidden {
+	font-size: 0;
+}
+.logo__image {
+}
+.header-nav {
+	display: flex;
+	align-items: center;
+}
+.nav {
+}
+.nav__list {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.nav__item:not(:last-child) {
+	margin-right: 36px;
+}
+.nav__item {
+}
+.nav__link {
+	color: #fff;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 154%;
+}
+.nav__menu-icon {
+margin-left: 64px;
+
+}
+.header__text {
+	border: 1px solid red;
+}
+.header__title {
+	font-size: 64px;
+	color: #fff;
+	line-height: 64px;
+	font-weight: 300;
+	max-width: 893px;
+}
+.header__disc {
+	color: #fff;
+	line-height: 140%;
+	max-width: 588px;
+	margin-top: 48px;
+}
+.header__link {
+	padding: 21px 78px 21px 45px;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 600;
+	background-color: #FC4339;
+	margin-top: 89px;
+}
