@@ -79,7 +79,18 @@ select {
     scroll-behavior: auto !important;
   }
 }
+@font-face {
+  font-family: 'Calvino Grande Trial';
+  src: url(/fonts/Calvino-Grande-Light-trial.woff) format('woff');
+  font-weight: 300;
+}
 
+@font-face {
+  font-family: 'Calvino Grande Trial';
+  src: url(/fonts/Calvino-Grande-Light-Italic-trial.woff) format('woff');
+  font-style: italic;
+  font-weight: 300;
+}
 
 
 /*выше сброс стилей-------начало проекта */
@@ -149,7 +160,7 @@ body {
 margin-left: 64px;
 
 }
-.header__text {
+.header__content {
 	border: 1px solid red;
 }
 .header__title {
@@ -158,6 +169,12 @@ margin-left: 64px;
 	line-height: 64px;
 	font-weight: 300;
 	max-width: 893px;
+	font-family: 'Calvino Grande Trial';
+	text-transform: uppercase;
+}
+.header__title--italic {
+	font-style: italic;
+	text-transform: lowercase;
 }
 .header__disc {
 	color: #fff;
