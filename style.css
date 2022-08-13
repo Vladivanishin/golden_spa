@@ -97,7 +97,7 @@ select {
 
 body {
 	font-family: 'Noto Sans', sans-serif;
-	background-color: #E5E5E5;
+	background-color: #F0EBE7;;
 	color: #5C5B59;
 	font-size: 14px;
 	font-weight: 400;
@@ -390,6 +390,7 @@ margin-left: 64px;
 	position: relative;
 	margin: 0 auto;
 	margin-top: 200px;
+	margin-bottom: 200px;
 }
 .concept__whitebox {
 	background-color: #fff;
@@ -439,4 +440,61 @@ margin-left: 64px;
 	top: 0;
 	right: 0;
 	z-index: 1;
+}
+
+/*----------------page blog----------------------*/
+.blog {
+	background-color: #fff;
+	height: 1041px;
+	width: 100%;
+	padding-top: 150px;
+}
+.blog__topbox {
+	width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+.section-title {
+}
+.section-subtitle {
+}
+.blog__list {
+	display: flex;
+	justify-content: space-between;
+	width: 648px;
+	border: 1px solid gold;
+	margin-top: 48px;
+}
+.blog__item {
+	position: relative;
+}
+.blog__item:last-child {
+	background: none;
+}
+.blog__item::after {
+	content: '';
+	width: 8px;
+	height: 8px;
+	background: #F0EBE7;
+	transform: rotate(45deg);
+	position: absolute;
+	right: -50px;
+	top: 9px;
+}
+.blog__link {
+	font-family: 'Calvino Grande Trial';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+	text-align: center;
+	color: #1f1f1f;
+}
+.blog__link:hover {
+	color: red;
+	font-style: italic;
+	background-image: url('img/1440/icon-arrow-red-right.png');
+	background-repeat: no-repeat;
+	background-position: 9px 5px;
+
 }
