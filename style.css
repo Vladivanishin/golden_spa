@@ -453,7 +453,8 @@ margin-left: 64px;
 	width: 1170px;
 	padding: 0 15px;
 	margin: 0 auto;
-	border: 1px solid red;
+	position: relative;
+	margin-bottom: 95px;
 }
 .section-title {
 }
@@ -463,8 +464,10 @@ margin-left: 64px;
 	display: flex;
 	justify-content: space-between;
 	width: 648px;
-	border: 1px solid gold;
-	margin-top: 48px;
+	margin-bottom: 95px;
+}
+.blog__subtitle {
+	margin-bottom: 48px;
 }
 .blog__item {
 	position: relative;
@@ -497,4 +500,80 @@ margin-left: 64px;
 	background-repeat: no-repeat;
 	background-position: 9px 5px;
 
+}
+.btn__box--gray {
+	width: 135px;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.btn-left--gray {
+	background-color: #F6F4F2;
+	width: 56px;
+	height: 56px;
+	border-radius: 100%;
+	position: relative;
+}
+.btn-left--gray::before {
+	content: '';
+	position: absolute;
+	background: url('img/1440/icon-arrow-left.png') no-repeat;
+	top: 19px;
+	left: 22px;
+	width: 10px;
+	height: 20px;
+}
+.btn-right--gray {
+	background-color: #F6F4F2;
+	width: 56px;
+	height: 56px;
+	border-radius: 100%;
+	position: relative;
+}
+.btn-right--gray::before {
+	content: '';
+	position: absolute;
+	background: url('img/1440/icon-arrow-left.png') no-repeat;
+	transform: rotate(-180deg);
+	top: 19px;
+	left: 24px;
+	width: 10px;
+	height: 20px;
+}
+.blog__bottombox {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	margin-top: 95px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.blog__card {
+	display: flex;
+	flex-direction: column;
+}
+.card {
+}
+.card__img {
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.card__disc {
+	color: #9FA2A7;
+	font-size: 10px;
+	line-height: 160%;
+	letter-spacing: 2px;
+	font-weight: 500;
+	margin-top: 28px;
+}
+.card__title {
+	font-family: 'Calvino Grande Trial';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 120%;
+	color: #1F1F1F;
+	margin-top: 12px;
+	max-width: 252px;
 }
