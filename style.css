@@ -624,6 +624,114 @@ margin-left: 64px;
 }
 .btn__link-more {
 }
+/*-------------contasts------------------*/
+.contacts {
+	width: 1350px;
+	padding: 0 15px;
+	height: 991px;
+	margin: 200px auto 200px;
+	display: flex;
+	position: relative;
+}
+.contacts__image {
+	background-image: url('img/1440/img-contacts.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 809px;
+	height: 841px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+.contacts__content {
+	background-color: #fff;
+	width: 894px;
+	height: 770px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.contacts__top-box {
+	margin: 0 auto;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	max-width: 690px;
+
+}
+.btn__connect {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.btn__connect::after {
+content: '';
+background-image: url('img/1440/icon-arrow-right-white.png');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.btn__connect--arrow {
+
+}
+.section-title {
+}
+.section-subtitle {
+}
+.btn__link {
+}
+.btn__link--arrow {
+}
+.contacts__list {
+	width: 390px;
+	padding-left: 102px;
+	display: flex;
+	justify-content: space-between;
+}
+.contacts__item {
+}
+.contacts__sity-box {
+	padding-left: 102px;
+	padding-top: 80px;
+}
+.contacts__box {
+	width: 690px;
+	display: flex;
+	margin-left: 102px;
+	margin-top: 50px;
+	column-gap: 45px;
+}
+.contacts__zones {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 204px;
+}
+.contacts__zone {
+	font-family: 'Calvino Grande Trial';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 120%;
+	color: #1F1F1F;
+}
+.contacts__adress {
+	display: flex;
+	flex-direction: column;
+}
+.contacts__cont {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 140%;
+	color: #5C5B59;
+}
+.contacts__cont--btm {
+	padding-bottom: 16px;
+}
+.contacts__cont--top {
+	padding-top: 16px;
+}
 /*=----------------footer---------------*/
 
 .footer-page {
