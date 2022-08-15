@@ -476,11 +476,8 @@ margin-left: 64px;
 .blog__subtitle {
 	margin-bottom: 48px;
 }
-.blog__item {
+.blog__item:not(:last-child) {
 	position: relative;
-}
-.blog__item:last-child {
-	background: none;
 }
 .blog__item::after {
 	content: '';
@@ -584,15 +581,13 @@ margin-left: 64px;
 	margin-top: 12px;
 	max-width: 252px;
 }
-/*.blog__photobox {
+.blog__photobox {
 	background: url('img/1440/img-blog5.jpg') no-repeat;
 	background-size: cover;
 	background-position: center;
 	width: 100vw;
 	height: 729px;
-	border: 1px solid red;
 }
-*/
 /*------------------page gifts---------------*/
 .gifts {
 	padding-top: 200px;
@@ -821,6 +816,10 @@ background-size: cover;
 	font-weight: 400;
 	line-height: 140%;
 	color: #5C5B59;
+}
+.footer__link:hover {
+	color: red;
+	position: 0 12px;
 }
 .footer__spa {
 }
