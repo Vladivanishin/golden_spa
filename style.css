@@ -106,6 +106,10 @@ body {
 	padding: 0;
 	margin: 0;
 }
+.visually-hidden {
+	font-size: 0;
+}
+
 .header-page {
 }
 .header__image {
@@ -580,7 +584,7 @@ margin-left: 64px;
 	margin-top: 12px;
 	max-width: 252px;
 }
-.blog__photobox {
+/*.blog__photobox {
 	background: url('img/1440/img-blog5.jpg') no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -588,9 +592,9 @@ margin-left: 64px;
 	height: 729px;
 	border: 1px solid red;
 }
-
+*/
 /*------------------page gifts---------------*/
-
+/*
 .gifts__container {
 	margin-top: 200px;
 	width: 1230px;
@@ -607,7 +611,7 @@ margin-left: 64px;
 	position: absolute;
 	top: 0;
 	left: 0;
-}
+}*/
 .gifts__content {
 }
 .section-title {
@@ -619,4 +623,72 @@ margin-left: 64px;
 .btn__link {
 }
 .btn__link-more {
+}
+/*=----------------footer---------------*/
+
+.footer-page {
+	background-color: #fff;
+	padding-top: 150px;
+}
+.footer__container {
+	padding: 0 15px;
+	margin: 0 auto;
+	max-width: 1200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-bottom: 62px;
+}
+.footer__menu {
+}
+.header__logo {
+}
+.footer__menubox {
+	display: flex;
+	column-gap: 45px;
+}
+.footer__logo {
+	justify-content: flex-start;
+	color: #9FA2A7;
+}
+.visually-hidden {
+}
+.logo__image {
+}
+.footer__title {
+	font-size: 22px;
+	line-height: 22px;
+	font-weight: 300;
+	font-family: 'Calvino Grande Trial';
+	color: #1F1F1F;
+}
+.footer__list {
+}
+.footer__item:not(:first-child) {
+	margin-top: 8px;
+}
+.footer__item:first-child {
+	margin-top: 43px;
+}
+.footer__link {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 140%;
+	color: #5C5B59;
+}
+.footer__spa {
+}
+.footer__socials {
+}
+.footer__container-bottom {
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 55px;
+	padding-bottom: 94px;
+	border-top: 1px solid #D0D0C8;
+}
+.text--underline {
+text-decoration: underline;
 }
